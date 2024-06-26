@@ -24,6 +24,15 @@ pub fn parse_markdown(input: String) -> String {
                 "<script type=\"env/mod\">$1</script>",
             );
 
+            // ugly text color format
+            out = regex_replace_exp(
+                &out,
+                RegexBuilder::new(r"%(.*?)%(.*?)%{2}")
+                    .multi_line(true)
+                    .dot_matches_new_line(true),
+                "<span style=\"color: $1\" role=\"custom-color\">$2</span>",
+            );
+
             // return
             out
         }],
