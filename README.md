@@ -1,10 +1,12 @@
-# 🦭 Sealable
+# 🌊 Tidals
 
-Reference markdown pastebin using [`pastemd`](https://github.com/hkauso/pastemd).
+Simple markdown pastebin using [`pastemd`](https://github.com/hkauso/pastemd).
+
+Tidals is a fork of [sealable](https://github.com/hkauso/sealable), an example markdown pastebin built with pastemd.
 
 ## Configuration
 
-Sealable supports the following configuration options through environment variables:
+Tidals supports the following configuration options through environment variables:
 
 * `SITE_NAME` - the name of the site
 * `INFO_URL` - the url (relative to root `/`) that will be served from the "what" link in the footer
