@@ -1,8 +1,8 @@
-# 🌊 Tidals
+# 💤 Rin
 
 Simple markdown pastebin using [`pastemd`](https://github.com/hkauso/pastemd).
 
-Tidals is a fork of [sealable](https://github.com/hkauso/sealable), an example markdown pastebin built with pastemd.
+Rin is a fork of [sealable](https://github.com/hkauso/sealable), an example markdown pastebin built with pastemd.
 
 ## Configuration
 

@@ -20,7 +20,7 @@ impl BaseStore {
         Self {
             site_name: match env::var("SITE_NAME") {
                 Ok(s) => s,
-                Err(_) => String::from("Sealable"),
+                Err(_) => String::from("Rin"),
             },
             info_url: match env::var("INFO_URL") {
                 Ok(s) => s,

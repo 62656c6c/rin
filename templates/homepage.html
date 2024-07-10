@@ -70,11 +70,7 @@ flex-direction: column;"{% endblock %}{% block content %}
             ).json();
 
             if (res.success === false) {
-                trigger("sealable:gen_secret", [
-                    "note-error",
-                    "Error",
-                    res.message,
-                ]);
+                trigger("app:gen_secret", ["note-error", "Error", res.message]);
             } else {
                 window.location.href = `/${res.payload[1].url}?SECRET=${res.payload[0]}`;
             }

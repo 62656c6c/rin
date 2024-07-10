@@ -1,6 +1,6 @@
-reg_ns("markdown", ["sealable", "bundled_env"]).define(
+reg_ns("markdown", ["app", "bundled_env"]).define(
     "fix_markdown",
-    function ({ sealable, bundled_env }, root_id) {
+    function ({ app, bundled_env }, root_id) {
         const theme = document.querySelector(`#${root_id} theme`);
 
         if (theme !== null) {
@@ -11,7 +11,7 @@ reg_ns("markdown", ["sealable", "bundled_env"]).define(
             }
 
             // update icon
-            sealable.update_theme_icon();
+            app.update_theme_icon();
         }
 
         // get js

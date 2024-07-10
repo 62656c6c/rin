@@ -1,5 +1,5 @@
 (() => {
-    const self = reg_ns("sealable");
+    const self = reg_ns("app");
 
     // localized times
     self.define("localize_dates", function () {
