@@ -1681,9 +1681,9 @@ dependencies = [
 
 [[package]]
 name = "pongo"
-version = "0.1.5"
+version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dbde49a03dd46560700ea61a15668b4cb9b38efa2724974f9569c9a42ae77b01"
+checksum = "4e48b334b394c409b7efa3a59bfc0b9853824732cd26557a212403d2ef871b9a"
 dependencies = [
  "askama",
  "askama_axum",
@@ -1832,7 +1832,7 @@ checksum = "7a66a03ae7c801facd77a29370b4faec201768915ac14a721ba36f20bc9c209b"
 
 [[package]]
 name = "rin"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
  "askama",
  "askama_axum",
